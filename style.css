@@ -1,0 +1,113 @@
+/* Page Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body{
+    padding-top: 25px;
+}
+/* Page Reset */
+
+/* Utilities Start */
+.flexed{
+    display: flex;
+    gap: 1.5em;
+}
+
+.flex-4{
+    flex: 4;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.margin-bot{
+    margin-bottom: 1.5em;
+}
+/* Utilities End */
+
+/* Top Nav Bar Start */
+.action-icons{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav{
+    
+}
+
+.page-name{
+    font-size: 1.5em;
+}
+
+.sign-out{
+    background-color: teal;
+    color: white;
+    min-width:6em;
+    min-height: 1.8em;
+    border: 2px solid black;
+}
+
+.pages{
+    text-decoration: none;
+    gap: 1.5em;
+}
+
+header{
+    min-height: 75px;
+    background-color: brown;
+    color: white;
+    padding: 1.5em;
+}
+/* Top Nav Bar End */
+
+/* Hero Section Start */
+.hero{
+    padding: 1.5em;
+}
+
+.container{
+    margin: 0 auto;
+    min-height: 600px;
+    width: 60%;
+    background-color: blue;
+}
+
+
+.user-info{
+    min-height: 400px;
+    background-color: burlywood;
+}
+
+.user-info img{
+    position: relative;
+    top: 50px;
+    height: 6em;
+    border-radius: 50%;    
+}
+
+.headline{
+    padding-left: 1.5em;
+    min-height: 40px;
+    background-color: teal;
+}
+
+.friend-requests{
+    min-height: 200px;
+    background-color:chocolate;
+}
+
+.education{
+    min-height: 200px;
+    background-color:darkgreen;
+}
+
+.connected-friends{
+    min-height: 400px;
+    background-color:dimgray;
+}
+/* Hero Section End */
