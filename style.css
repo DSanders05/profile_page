@@ -12,13 +12,17 @@ body{
 /* Page Reset */
 
 /* Utilities Start */
-.flexed{
+.flexed-gap{
     display: flex;
     gap: 1.5em;
 }
 
-.flex-4{
-    flex: 4;
+.flexed{
+    display:flex;
+}
+
+.flex-2{
+    flex: 2;
 }
 
 .flex-1{
@@ -27,6 +31,10 @@ body{
 
 .margin-bot{
     margin-bottom: 1.5em;
+}
+
+.borders{
+    border: 3px solid dimgray;
 }
 /* Utilities End */
 
@@ -37,7 +45,7 @@ body{
 }
 
 .top-nav{
-    
+    align-items: center;
 }
 
 .page-name{
@@ -59,7 +67,7 @@ body{
 
 header{
     min-height: 75px;
-    background-color: brown;
+    background-color: black;
     color: white;
     padding: 1.5em;
 }
@@ -68,19 +76,20 @@ header{
 /* Hero Section Start */
 .hero{
     padding: 1.5em;
+    background-color: white;
 }
 
 .container{
     margin: 0 auto;
     min-height: 600px;
-    width: 60%;
-    background-color: blue;
+    width: 40%;
+    background-color: white;
 }
 
 
 .user-info{
     min-height: 400px;
-    background-color: burlywood;
+    background-color: white;
 }
 
 .user-info img{
@@ -90,24 +99,189 @@ header{
     border-radius: 50%;    
 }
 
+.user-body{
+    margin-top: 1.5em;
+    font-size: 15px;
+    margin-left: 1.5em;
+    color: black;
+}
+
+.user-settings img{
+    height: 20px;
+}
+
+.user-settings{
+    color: blue;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: underline;
+}
+
 .headline{
     padding-left: 1.5em;
     min-height: 40px;
     background-color: teal;
 }
 
+.user-name{
+    font-size: 35px;
+    min-height: 20px;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+
+
+
+.location{
+    justify-content: flex-start;
+    align-items:center;
+    margin-left: 3em;
+    font-size: 20px;
+}
+
+.location img{
+    height: 50px;
+}
+
+.requests-head header{
+    min-height: 40px;
+    background-color: dimgray;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+}
+
+.requests-head button{
+    font-weight: bold;
+    background-color: lightgray;
+    position: relative;
+    margin-right: 1em;
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+}
+
 .friend-requests{
     min-height: 200px;
-    background-color:chocolate;
+    background-color:white;
+}
+
+.user-requests{
+    margin-top: 1em;
+    min-height: 35px;
+    font-size: 25px;
+}
+
+.user-requests img{
+    height: 25px;
+    border-radius: 50%;
+}
+
+.user-1{
+    justify-content:start;
+    align-items: center;
+    gap: .5em;
+    margin-left: 1.5em;
+}
+
+.user-2{
+    justify-content:start;
+    align-items: center;
+    gap: .5em;
+    margin-left: 1.5em;
 }
 
 .education{
-    min-height: 200px;
-    background-color:darkgreen;
+    min-height: 50px;
+    background-color:white;
+}
+
+.education header{
+    background-color: dimgray;
+    font: bold;
+    font-size: 20px;
+}
+
+.education-info{
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+.education h3{
+    color: black;
+    font-size: 20px;
+}
+
+.dates{
+    color: dimgrey;
 }
 
 .connected-friends{
     min-height: 400px;
-    background-color:dimgray;
+    background-color:white;
+}
+
+.friends-header{
+    width: 100%;
+    background-color: dimgrey;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.friends-header button{
+    height: 30px;
+    width: 50px;
+    border-radius: 45%;
+}
+
+.friends-list h4{
+    color: black;
+    font-size: 20px;
+}
+
+.friends-list img{
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.friend-user1{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.friend-user2{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.friend-user3{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.friend-user4{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.extend-list{
+    background-color: white;
+    min-height: 15px;
+    border: 2px solid dimgray;
+    text-align: left;
+    text-decoration: underline;
+    color: blue;
+    padding: .25rem;
 }
 /* Hero Section End */
